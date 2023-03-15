@@ -2,7 +2,7 @@
   "include": ["src", "types"],
   "exclude": ["src/index-browser.ts"],
   "compilerOptions": {
-    "target": "es5",
+    // "target": "es5",
     "lib": ["dom", "esnext"],
     "importHelpers": true,
     "declaration": false,
@@ -21,7 +21,7 @@
     "moduleResolution": "node",
     "baseUrl": "./",
     "paths": {
-      "*": ["src/*", "node_modules/*"]
+      // "*": ["src/*", "node_modules/*"]
     },
     "jsx": "react",
     "esModuleInterop": true,
